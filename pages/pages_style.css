@@ -5,6 +5,7 @@ body {
 .pistols {
     display: flex;
     flex-wrap: wrap;
+    background-color: yellow;
 }
 .pistols div {
     text-align: center
