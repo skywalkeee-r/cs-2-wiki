@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    font-size: 30px;
+}
+
+.sections p {
+    color: rgb(63, 63, 159);
+    font-size: 25px;
+}
+
+.sections p:hover {
+    color: #6d0f80;
+    cursor: pointer;
+}
+
+img {
+    height: 240px;
+    width: 440px;
+}

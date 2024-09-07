@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.displayed {
+    display: block;
+}
+
+.advantages {
+    display: flex;
+    flex-direction: column;
+}
+
+.flaws {
+    display: flex;
+    flex-direction: column;
+}
+
+.notdisplayed {
+    display: none;
+}
+
+.edit {
+    display: block;
+}
+
+.end_edit {
+    display: none;
+}
+
+#edit_info {
+    width: 80%; 
+}
+
+#edit_name {
+    width: 20%;
+}
+
+input {
+    background-color: gray;
+    color: white;
+    width: 60%;
+}

@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: white;
+}
+.pistols {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pistols div {
+    text-align: center
+}

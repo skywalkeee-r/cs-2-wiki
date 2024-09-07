@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new_win.css">
+</head>
+<body>
+    <h2>Название</h2>
+    <input id="1" type="text">
+    <h2>Внешний вид</h2>
+    <input id="2" type="text">
+    <h2>Описание</h2>
+    <input id="3" type="text">
+    <div>
+        <h3>Приемущества</h3>
+        <ul id="4">
+            <li><input type="text"></li>
+        </ul>
+        <button onclick="CreateTegForAdvantages()">Добавить приемущество</button>
+    </div>
+    <div>
+        <h3>Недостатки</h3>
+        <ul id="5">
+            <li><input type="text"></li>
+        </ul>
+        <button onclick="CreateTegForFlaws()">Добавить недостаток</button>
+    </div>
+    <br>
+    <button onclick="GetData()" id="button">Отправить</button>
+    <script src="new_win.js"></script>
+</body>
+</html>
